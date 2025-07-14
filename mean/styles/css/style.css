@@ -1,0 +1,230 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+} 
+.sawyisi {
+  height: 600px;
+  width: 100%;
+}
+
+.jalaurta {
+  font-size: 40px;
+  margin-left: 100px;
+}
+
+.card1 {
+  display: flex;
+  flex-direction: row;
+}
+
+.card5 {
+  background-color: #212529;
+  width: 100%;
+  height: 350px;
+}
+
+.HOME {
+  transform: translateY(-90px);
+  margin-top: 30px;
+  margin-left: 70px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: azure;
+}
+
+.about {
+  margin-left: 266px;
+  transform: translateY(-300px);
+  margin-top: 30px;
+  color: azure;
+}
+
+.mesame {
+  margin-left: 420px;
+  transform: translateY(-520px);
+  margin-top: 30px;
+  color: azure;
+}
+
+.meil {
+  transform: translateY(-730px);
+  margin-left: 650px;
+  color: azure;
+}
+
+.number {
+  margin-left: 650px;
+  transform: translateY(-750px);
+  color: azure;
+  margin-top: 50px;
+}
+
+.card1 {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.TBC {
+  color: blue;
+  margin-left: 650px;
+  transform: translateY(160px);
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+
+.card4 {
+  width: 100%;
+  height: 100;
+}
+
+.sura {
+  color: green;
+  font-size: 50px;
+  margin-left: 100px;
+}
+
+.chat {
+  width: 360px;
+  height: 350px;
+  border-radius: 10%;
+  margin-left: 50px;
+  margin-bottom: 30px;
+}
+
+@media screen and (min-device-width: 320px) and (max-device-width: 767px) {
+  .jalaurta {
+    margin-left: 40px;
+  }
+  .card1 {
+    margin-left: 40px;
+  }
+  .sura {
+    margin-left: 3px;
+  }
+  .chat {
+    margin-left: 10px;
+  }
+  .card5 {
+    height: 100%;
+    width: 100%;
+  }
+  .mesame {
+    margin-left: 150px;
+    transform: translateY(-525px);
+  }
+  .meil {
+    transform: translateY(-500px);
+    margin-left: 60px;
+    font-size: 17px;
+  }
+  .number {
+    margin-left: 80px;
+    transform: translateY(-500px);
+    font-size: 17px;
+  }
+  .TBC {
+    margin-left: 90px;
+    transform: translateY(400px);
+  }
+  .HOME {
+    margin-left: 40px;
+  }
+  .about {
+    margin-left: 280px;
+    transform: translateY(-315px);
+  }
+  .card5 {
+    height: 600px;
+  }
+}
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .sawyisi {
+    width: 100%;
+  }
+  .jalaurta {
+    margin-left: 80px;
+  }
+  .card1 {
+    margin-left: 70px;
+    font-size: 20px;
+  }
+  .chat {
+    width: 190px;
+    margin-left: 62px;
+  }
+  .meil {
+    margin-left: 550px;
+    font-size: 15px;
+  }
+  .number {
+    margin-left: 550px;
+    font-size: 20px;
+  }
+  .TBC {
+    margin-left: 550px;
+  }
+}
+@media screen and (min-device-width: 1025px) {
+  .sawyisi {
+    height: 600px;
+    width: 100%;
+  }
+  .jalaurta {
+    margin-left: 50px;
+  }
+  .card1 {
+    margin-left: 50px;
+    font-size: 20px;
+  }
+  .chat {
+    width: 280px;
+  }
+  .meil {
+    margin-left: 600px;
+  }
+}/*# sourceMappingURL=style.css.map */
